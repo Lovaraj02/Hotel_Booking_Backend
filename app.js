@@ -14,7 +14,7 @@ app.use(cors());
 mongoose.connect('mongodb+srv://balu:balu1234@cluster0.znzpvv8.mongodb.net/practice?retryWrites=true&w=majority&appName=Cluster0')
 
   .then(() => {
-    app.listen(4000, () => {
+    app.listen(6000, () => {
       console.log("Connected");
     });
   })
